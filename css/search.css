@@ -1,0 +1,70 @@
+.navbar navbar-expand-lg bg-body-tertiary {
+    padding-left: 30px;
+}
+
+.wrap {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.container-fluid {
+    margin-left: 120px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.navbar-brand {
+    color: blue;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    border: 1px;
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-item {
+    width: 210px;
+}
+
+#big {
+    width: 100%;
+    height: 800px;
+    background-color: skyblue;
+    border: 1px solid;
+}
+
+#left {
+    float: left;
+    margin-top: 50px;
+    margin-left: 50px;
+    width: 550px;
+    height: 700px;
+    border: 1px dotted;
+}
+
+#right {
+    float: left;
+    margin-left: 37px;
+    margin-top: 50px;
+    border: 1px dotted;
+    width: 550px;
+    height: 740px;
+}
+
+.container-fluids {
+    height: 100px;
+    padding-left: 190px;
+    padding-top: 30px;
+}
+
+#listsave {
+    float: right
+}
+
+#saveb {
+    margin-top: -16px;
+}

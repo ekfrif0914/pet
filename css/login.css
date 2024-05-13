@@ -1,0 +1,51 @@
+.black-bg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 5;
+    padding: 50px;
+}
+.gray-bg {
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    background: rgba(0, 0, 0, 0.5);
+    z-index: 5;
+    padding: 50px;
+}
+
+.white-bg {
+    position: absolute;
+    top: 50%;
+    width: 400px;
+    height: 440px;
+    text-align: center;
+    margin-left: 410px;
+    background: white;
+    border-radius: 5px;
+    padding: 30px;
+    transform: translateY(-50%);
+}
+
+.white-b{
+    position: absolute;
+    top: 50%;
+    width: 500px;
+    height:500px;
+    text-align: center;
+    margin-left: 350px;
+    margin-top: 30px;
+    background: white;
+    border-radius: 5px;
+    padding: 30px;
+    transform: translateY(-50%);
+}
+
+.noshow {
+    display: none;
+}
+
+.hidden{
+    display: none;
+}

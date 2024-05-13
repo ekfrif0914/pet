@@ -1,0 +1,57 @@
+.navbar navbar-expand-lg bg-body-tertiary {
+    padding-left: 30px;
+}
+
+.wrap {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.container-fluid {
+    margin-left: 3px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+}
+
+.navbar-brand >h4 {
+    font-style: italic;
+    color: red;
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    border: 1px dotted;
+    display: inline-block;
+    text-align: center;
+}
+
+.nav-item {
+    width: 210px;
+}
+
+font {
+    font-style: initial;
+}
+
+#dfont {
+    margin-bottom: 50px;
+}
+
+.card {
+    display: inline-block;
+    margin-left: 17px;
+}
+
+#log {
+    margin-top: 3px;
+    margin-left: 8px;
+
+}
+
+#join {
+    margin-top: 2px;
+    margin-left: 23px;
+
+}

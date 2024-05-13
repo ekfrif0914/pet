@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="kor">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>반려견 검색</title>
+</head>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+<link rel="shortcut icon" type="image/x-icon" href="검색.png">
+<link rel="stylesheet" href="/pet/css/search.css">
+
+<body>
+    <div class="wrap">
+        <nav>
+            <nav class="navbar fixed-top bg-body-tertiary">
+                <nav class="navbar navbar-expand-lg bg-body-tertiary">
+                    <a href="http://192.168.0.13:5500/pet/html/main.html">
+                        <img class="img-concert" src="/pet/images/완성 로고.png" width="190" px>
+                    </a>
+                    <div class="container-fluid">
+                        <a class="navbar-brand">
+
+                            <h4>
+                                <font color="red" style="font-style: italic;">Menu</font>
+                            </h4>
+                        </a>
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup"
+                            aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+
+                                <a class="nav-link active" aria-current="page"
+                                    href="http://192.168.0.13:5500/pet/html/intro.html">
+                                    <h5>소개</h5>
+                                </a>
+                                <a class="nav-link active" href="http://192.168.0.13:5500/pet/html/understand.html">
+                                    <h5>애완동물 이해하기</h5>
+                                </a>
+                                <a class="nav-link active" href="http://192.168.0.13:5500/pet/html/showpet.html">
+                                    <h5>반려견 보기</h5>
+                                </a>
+                                <a class="nav-link active" href="http://192.168.0.13:5500/pet/html/adopt.html">
+                                    <h5>입양신청</h5>
+                                </a>
+                                <a class="nav-link active" href="http://192.168.0.13:5500/pet/html/interest.html">
+                                    <h5>관심 반려견</h5>
+                                </a>
+                                <a class="navbar-brand" href="http://192.168.0.13:5500/pet/html/search.html">
+                                    <h5>반려견 검색</h5>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </nav>
+        </nav>
+
+        <section>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <div id="big">
+                <div id="left">
+                    <nav class="navbar bg-body-tertiary">
+                        <div class="container-fluid">
+                            <form class="d-flex" role="search">
+                                <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                                <button class="btn btn-outline-success" type="submit">Search</button>
+                            </form>
+                        </div>
+                    </nav>
+                    <br>
+
+
+                    <table class="table" id="table1">
+                        <thead>
+                            <tr>
+                                <td></td>
+                                <th scope="col">이미지</th>
+                                <th scope="col">견종</th>
+                                <th scope="col">나이</th>
+                            </tr>
+                        </thead>
+                        <tbody id="pet">
+                            <tr>
+                                <th><button type="button" class="btn btn-outline-info"
+                                        onclick="double(this)">담기</button>
+                                </th>
+                                <td> <img src="/pet/images/진돗개.jpeg" width="118" px> </td>
+                                <td>진돗개 </td>
+                                <td>2 살</td>
+                            </tr>
+                            <tr>
+                                <th><button type="button" class="btn btn-outline-info"
+                                        onclick="double(this)">담기</button>
+                                </th>
+                                <td><img src="/pet/images/라이카.jpeg" width="118" px> </td>
+                                <td>라이카</td>
+                                <td>3 살</td>
+                            </tr>
+                            <tr>
+                                <th><button type="button" class="btn btn-outline-info"
+                                        onclick="double(this)">담기</button>
+                                </th>
+                                <td><img src="/pet/images/그레이하운드.jpeg" width="117" px </td>
+                                <td>그레이하운드</td>
+                                <td>2 살</td>
+                            </tr>
+
+                            <tr>
+                                <th><button type="button" class="btn btn-outline-info"
+                                        onclick="double(this)">담기</button>
+                                </th>
+                                <td><img src="/pet/images/진도믹스.jpeg" width="117" px </td>
+                                <td>진도믹스</td>
+                                <td>2 살</td>
+                            </tr>
+
+
+
+                        </tbody>
+                    </table>
+                </div>
+                <form action="savelist" method="get">
+                    <div id="right">
+                        <nav class="navbar bg-body-tertiary">
+                            <div class="container-fluids">
+                                <h2 id="list"> 🅼🆈 🅻🅸🆂🆃</h2>
+                            </div>
+                        </nav>
+                        <br>
+
+                        <table class="table" id="table2">
+                            <thead>
+                                <tr>
+                                    <td></td>
+                                    <th scope="col">이미지</th>
+                                    <th scope="col">견종</th>
+                                    <th scope="col">나이</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+
+                            </tbody>
+
+                        </table>
+
+                        <div id="saveb">
+                            <input type="submit" class="btn btn-warning" id="save" value="저장">
+                        </div>
+                </form>
+            </div>
+    </div>
+</section>
+<footer>
+    <footer class="py-3 my-4">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+                <li class="nav-item">pet master</li>
+                <li class="nav-item">주소: 경기도 수원시<br> 권선구 탑동 900 </li>
+                <li class="nav-item">대표자: 전민정</li>
+                <li class="nav-item">TEL: 010-7477-7877</li>
+                <li class="nav-item">ekfrif0914@naver.com</li>
+            </ul>
+            <p class="text-center text-body-secondary">&copy; 2024 pet master</p>
+        </footer>
+    </footer>
+</div>
+</body>
+
+</html>
+<script>
+    const table2 = document.querySelector('#table2')
+    
+    function double(This) {
+    
+        const select = This.closest('tr').cells[2].innerHTML
+        const countRow = table2.rows.length;
+        var flag = false;
+    
+        if (countRow != 1) {
+            for (let i = 1; i < table2.rows.length; i++) {
+                if (table2.rows[i].cells[2].innerHTML == select) {
+                    alert("이미 존재합니다")
+                    flag = true;
+                }
+            }
+            if (!flag) {
+                input(This)
+            }
+    
+        } else {
+            input(This)
+        }
+    }
+
+    function input(This) {
+
+        var three = This.closest('tr').cells[2].innerHTML
+        if (confirm(three + "를 담으시겠습니까?")) {
+
+            let newRow = table2.insertRow(1)
+            let newCell1 = newRow.insertCell(0)
+            let newCell2 = newRow.insertCell(1)
+            let newCell3 = newRow.insertCell(2)
+            let newCell4 = newRow.insertCell(3)
+
+            let two = This.closest('tr').cells[1].innerHTML
+            let three = This.closest('tr').cells[2].innerHTML
+            let four = This.closest('tr').cells[3].innerHTML
+            newCell1.innerHTML = "<button type='button' class='btn btn-outline-danger' onclick='del(this)'>삭제</button>"
+            newCell2.innerHTML = two
+            newCell3.innerHTML = three
+            newCell4.innerHTML = four
+        }
+    }
+
+    function del(This) {
+        if (confirm("삭제하시겠습니까?")) {
+            This.closest('tr').remove();
+        } else {
+            return;
+        }
+    }
+
+    document.querySelector('#save').addEventListener('click', () => {
+      
+            alert("관심 리스트 담기 성공!")
+    })
+</script>

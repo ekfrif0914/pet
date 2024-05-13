@@ -1,0 +1,62 @@
+.navbar navbar-expand-lg bg-body-tertiary {
+    padding-left: 30px;
+}
+
+.wrap {
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+}
+
+.container-fluid {
+    margin-left: 120px;
+    margin-bottom: 30px;
+    margin-top: 30px;
+
+}
+
+.navbar-brand {
+    color: blue;
+
+}
+
+section {
+    width: 100%;
+    height: 100%;
+    border: 1px;
+    display: inline-block;
+    text-align: center;
+    border: 1px dotted;
+}
+
+.nav-item {
+
+    width: 210px;
+}
+
+#admin {
+    margin-top: 20px;
+    border: 1px solid;
+    width: 650px;
+    height: 850px;
+    margin-left: 300px;
+    padding: 25px;
+    margin-bottom: 40px;
+}
+
+.form-check {
+    float: left;
+}
+
+.ranNum {
+    float: left;
+    padding-left: 0px;
+}
+
+
+#floatingInput {
+    width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 5px;
+}
