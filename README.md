@@ -6,7 +6,7 @@
 > ## 🚀 프로젝트 기간
 > 2024.05.02 ~ 2024.05.07
 
-🔗 
+🔗 https://github.com/ekfrif0914/pet/blob/main/%EB%B0%98%EB%A0%A4%EA%B2%AC%20%EC%A2%85%ED%95%A9%EC%A0%95%EB%B3%B4%20%EC%8B%9C%EC%8A%A4%ED%85%9C%EF%BC%BF%EC%A0%84%EB%AF%BC%EC%A0%95.pdf
 
 > ## 📋 프로젝트 개요
 기획배경:<br> 
