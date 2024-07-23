@@ -6,6 +6,13 @@
 ## 🚀 프로젝트 기간
 > 2024.05.02 ~ 2024.05.07
 
+## 🚀 프로젝트 시연영상
+[Main 화면](https://drive.google.com/file/d/1KDPIexW1FMdBLBi9iB6egQlIDQWv6PC9/view?usp=drive_link)
+[반려견 소개](https://drive.google.com/file/d/1vNCxNG3vlb-DNlk5e5_UfLKRCy6lBKiS/view?usp=drive_link)
+[입양 신청](https://drive.google.com/file/d/1aUNETsGEcF6yFFYl81uuO0C-0talVaKI/view?usp=drive_link)
+[반려견 검색](https://drive.google.com/file/d/1Z-m_DyKQMfagRHKXHcTQWaJ0xKPgApnB/view?usp=drive_link)
+
+## 🚀 프로젝트 PPT
 🔗[반려견 종합정보 시스템＿전민정.pdf](https://github.com/ekfrif0914/pet/blob/main/%EB%B0%98%EB%A0%A4%EA%B2%AC%20%EC%A2%85%ED%95%A9%EC%A0%95%EB%B3%B4%20%EC%8B%9C%EC%8A%A4%ED%85%9C%EF%BC%BF%EC%A0%84%EB%AF%BC%EC%A0%95.pdf)
 
 
